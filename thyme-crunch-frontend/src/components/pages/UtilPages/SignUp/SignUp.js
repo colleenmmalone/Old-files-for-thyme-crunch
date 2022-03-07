@@ -14,7 +14,7 @@ export default function SignUp() {
     const [uuname, setUsername] = useState('');
     const [uupassword, setPassword] = useState('');
     
-    const [uData, setUData] = useState("")
+  //  const [uData, setUData] = useState("")
     const navigate = useNavigate()
 
     const url =""
@@ -79,9 +79,9 @@ export default function SignUp() {
               <div>
               <form onSubmit={(e) => signup(e)}>
                 <div>
-                  <div>
+                
                   <h1 id="t2">Sign Up Page</h1>
-                  </div>
+                
                  <div className="form">
                  <div className="first-input">
                     <p>First Name</p>
