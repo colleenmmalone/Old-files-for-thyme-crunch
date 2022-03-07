@@ -1,0 +1,12 @@
+{
+  "id":"com.thymecrunch:thymecrunch.all:slingosgifeature:publish:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/thymecrunch/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.thymecrunch:thymecrunch.all:1.0.0-SNAPSHOT|com.thymecrunch:thymecrunch.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

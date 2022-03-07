@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Thyme Crunch - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2022-03-03T20:57:17.786Z</entry>
+<entry key="groupId">com.thymecrunch</entry>
+<entry key="name">thymecrunch.all</entry>
+<entry key="description">All content package for Thyme Crunch</entry>
+<entry key="artifactId">thymecrunch.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.thymecrunch</entry>
+</properties>

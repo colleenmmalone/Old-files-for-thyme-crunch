@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Thyme Crunch - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.thymecrunch:thymecrunch.ui.content:1.0.0-SNAPSHO
+ T
+Content-Package-Description: UI content package for Thyme Crunch
+Content-Package-Dependencies: com.thymecrunch:thymecrunch.ui.apps:1.0.0-
+ SNAPSHOT
+Content-Package-Dependencies-Locations: com.thymecrunch:thymecrunch.ui.a
+ pps:1.0.0-SNAPSHOT=maven:com.thymecrunch:thymecrunch.ui.apps:1.0.0-SNAP
+ SHOT:zip
+Content-Package-Roots: /conf/thymecrunch,/content/dam/thymecrunch/asset.
+ jpg,/content/experience-fragments/thymecrunch,/content/thymecrunch
+

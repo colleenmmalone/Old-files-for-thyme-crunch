@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+ 
+    <!-- ====================================================================== -->
+    <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
+    <!-- ====================================================================== -->
+    <parent>
+        <groupId>com.thymecrunch</groupId>
+        <artifactId>thymecrunch</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+ 
+    <!-- ====================================================================== -->
+    <!-- P R O J E C T  D E S C R I P T I O N                                   -->
+    <!-- ====================================================================== -->
+    <artifactId>thymecrunch.react</artifactId>
+    <packaging>pom</packaging>
+    <name>Thyme Crunch React App</name>
+    <description>Thyme Cruch React Module</description>
+ 
+ 
+    <!-- ====================================================================== -->
+    <!-- B U I L D   D E F I N I T I O N                                        -->
+    <!-- ====================================================================== -->
+    <build>
+    <plugins>
+    <plugin>
+        <!-- https://mvnrepository.com/artifact/com.github.eirslett/frontend-maven-plugin -->
+
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>1.12.1</version>
+        <executions>
+ 
+        <execution>
+            <id>install node and npm</id>
+            <goals>
+            <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+            <nodeVersion>v16.14.0</nodeVersion>
+            <npmVersion>8.5.2</npmVersion>
+        </configuration>
+        </execution>
+ 
+        <execution>
+            <id>npm install</id>
+            <goals>
+            <goal>npm</goal>
+            </goals>
+            <!-- Optional configuration which provides for running any npm command -->
+            <configuration>
+            <arguments>install</arguments>
+            </configuration>
+        </execution>
+ 
+        <execution>
+            <id>npm run build</id>
+            <goals>
+            <goal>npm</goal>
+            </goals>
+            <configuration>
+            <arguments>run build</arguments>
+            </configuration>
+        </execution>
+ 
+        </executions>
+    </plugin>
+    </plugins>
+</build>
+</project>

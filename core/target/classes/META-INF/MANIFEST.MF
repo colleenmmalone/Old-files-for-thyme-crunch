@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-Category: Thyme Crunch
+Bundle-Description: Core bundle for Thyme Crunch
+Bundle-ManifestVersion: 2
+Bundle-Name: Thyme Crunch - Core
+Bundle-SymbolicName: thymecrunch.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.thymecrunch.core.filters;version="1.0",com.thymecr
+ unch.core.listeners;version="1.0",com.thymecrunch.core.models;version
+ ="1.0",com.thymecrunch.core.schedulers;version="1.0",com.thymecrunch.
+ core.servlets;version="1.0"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.thymecrunch.core.filters.LoggingFilter
+ .xml,OSGI-INF/com.thymecrunch.core.listeners.SimpleResourceListener.x
+ ml,OSGI-INF/com.thymecrunch.core.schedulers.SimpleScheduledTask.xml,O
+ SGI-INF/com.thymecrunch.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.thymecrunch.core.models.HelloWorldModel
+

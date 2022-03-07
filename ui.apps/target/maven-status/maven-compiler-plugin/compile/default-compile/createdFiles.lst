@@ -1,0 +1,6 @@
+org\apache\sling\scripting\sightly\apps\thymecrunch\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\thymecrunch\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\thymecrunch\components\xfpage\content__002e__html.class
+org\apache\sling\scripting\sightly\apps\thymecrunch\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\thymecrunch\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\thymecrunch\components\xfpage\customheaderlibs__002e__html.class

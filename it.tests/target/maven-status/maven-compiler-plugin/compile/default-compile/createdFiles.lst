@@ -1,0 +1,4 @@
+com\thymecrunch\it\tests\GetPageIT.class
+com\thymecrunch\it\tests\HtmlUnitClient.class
+com\thymecrunch\it\tests\CreatePageIT.class
+com\thymecrunch\it\tests\PublishPageValidationIT.class

@@ -1,0 +1,5 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Thu Mar 03 15:57:18 EST 2022
+author=thymecrunch.all-author.json
+publish=thymecrunch.all-publish.json
+(default)=thymecrunch.all.json
