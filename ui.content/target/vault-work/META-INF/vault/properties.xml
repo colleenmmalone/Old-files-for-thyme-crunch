@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.thymecrunch:thymecrunch.ui.apps:1.0.0-SNAPSHOT=maven:com.thymecrunch:thymecrunch.ui.apps:1.0.0-SNAPSHOT:zip</entry>
-<entry key="created">2022-03-03T20:57:17.128Z</entry>
+<entry key="created">2022-03-07T16:19:13.932Z</entry>
 <entry key="groupId">com.thymecrunch</entry>
 <entry key="description">UI content package for Thyme Crunch</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
