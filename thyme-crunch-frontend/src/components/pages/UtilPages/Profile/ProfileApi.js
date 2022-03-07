@@ -36,7 +36,7 @@ console.log(userProfile);
            <div key={userProfile.userID}>
            {userProfile.userID ? (
                <img 
-                   src={`http://3.14.3.79:9090/api/v1/users/${userProfile.userID}/image/download`} //http://3.14.3.79:9090/api/v1/users
+                   src={`http://3.14.3.79:9090/api/v1/users/${userProfile.userID}/image/download`} alt="image download" //http://3.14.3.79:9090/api/v1/users
                  />
            ):null}
           <br/>

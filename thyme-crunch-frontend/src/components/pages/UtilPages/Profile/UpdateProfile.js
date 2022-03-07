@@ -4,7 +4,7 @@ import '../SignUp/SignUp.css';
 import '../../../../App.css';
 import Navbar from '../../../Navbar';
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { useNavigate} from 'react-router-dom';
 
@@ -15,7 +15,7 @@ export default function UpdateProfile() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     
-    const [uData, setUData] = useState("")
+   // const [uData, setUData] = useState("")
     const navigate = useNavigate()
 
 
