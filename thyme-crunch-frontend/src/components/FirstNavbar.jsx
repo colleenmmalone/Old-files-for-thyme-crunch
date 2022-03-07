@@ -2,9 +2,9 @@ import React, {useState, useEffect}from 'react';
 import {Link} from 'react-router-dom';
 import './FirstNavbar.css';
 import {Button1} from './buttons/Button1';
-import{AddRecipes} from './pages/UtilPages/Recipe/AddRecipes'
-import{PendingRec} from './pages/UtilPages/Recipe/PendingRec'
-import{UserRecipes} from './pages/UtilPages/Recipe/UserRecipes'
+// import{AddRecipes} from './pages/UtilPages/Recipe/AddRecipes'
+// import{PendingRec} from './pages/UtilPages/Recipe/PendingRec'
+// import{UserRecipes} from './pages/UtilPages/Recipe/UserRecipes'
 // import{UserRecipes} from './pages/UtilPages/Recipe/UserRecipes'
 
 /**********************************Works Cited************************************

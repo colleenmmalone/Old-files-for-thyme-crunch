@@ -1,6 +1,6 @@
 import Navbar from "../../../Navbar"
 import { ApprovedRecipes } from './UserRecipesApi';
-import React, {useState, useEffect, useCallback}from "react";
+import React from "react";
 // import '../Profile/UserProfiles.css';
 import './UserRecipes.css';
 

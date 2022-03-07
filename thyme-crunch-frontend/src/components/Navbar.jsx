@@ -1,11 +1,11 @@
 import React, {useState, useEffect}from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
-import {Button} from './buttons/Button';
-import AddRecipes from './pages/UtilPages/Recipe/AddRecipes';
-import PendingRecipes from './pages/UtilPages/Recipe/PendingRec';
-import RecipesMenu from './pages/UtilPages/Recipe/UserRecipesMenu';
-import UserRecipes from './pages/UtilPages/Recipe/UserRecipes';
+// import {Button} from './buttons/Button';
+// import AddRecipes from './pages/UtilPages/Recipe/AddRecipes';
+// import PendingRecipes from './pages/UtilPages/Recipe/PendingRec';
+// import RecipesMenu from './pages/UtilPages/Recipe/UserRecipesMenu';
+// import UserRecipes from './pages/UtilPages/Recipe/UserRecipes';
 
 /**********************************Works Cited************************************
  * Title: React Website Tutorial - Beginner React JS Project Fully Responsive
@@ -108,7 +108,7 @@ export function Navbar() {
 
                     <li className='nav-item'>
                         <Link to='/shopinglist' className='nav-links' onClick={closeMobileMenu}>
-                            Shoping List 
+                            Shopping List 
                         </Link>
                     </li>
                 </ul>
