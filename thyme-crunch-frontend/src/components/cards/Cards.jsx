@@ -15,6 +15,7 @@ function Card() {
         <div className='cards'>
             <div id="main-re">
                 <div class="marquee">
+
                     <CardItem 
                         src='../images/breakfast-1.png'
                         text="Start your day with a healthy breakfast"
@@ -28,22 +29,23 @@ function Card() {
                         label= "Lunch"
                         path="/lunch"
                         />
+
                     <CardItem 
-                        src='../images/newDinner.jpg'
+                        src='../images/dinner.jpg'
                         text="Beat the clock with a speedy dinner"
                         label= "Dinner"
                         path="/dinner"
                         />
 
                     <CardItem 
-                        src='../images/newDess9.jpg'
+                        src='../images/pink-pie.jpg'
                         text="Indulge your sweet tooth"
                         label= "Desserts"
                         path="/desserts"
                         />
 
                     <CardItem 
-                        src='../images/newSn1.jpg'
+                        src='../images/snack.jpg'
                         text="Refuel with a tasty pick-me-up"
                         label= "Snacks"
                         path="/snacks"
