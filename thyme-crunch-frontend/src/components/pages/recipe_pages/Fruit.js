@@ -10,7 +10,7 @@ function Fruit (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/fruit.jpg"/>
+    <img src="images/fruit.jpg" alt="fruit" />
     
     <h1>Fresh Fruit Stars</h1>
     <div id="userdiv">

@@ -1,9 +1,9 @@
 import AdminNavbar2 from "../../../AdminNavbar2"
-import React, {useState, useEffect, useCallback}from "react";
+import React from "react";
 import { PendingRecipesConst } from './PendingRecApi';
 import './PendingRecipes.css';
-import ApproveDeny from "./ApproveDeny";
-import Navbar from "../../../Navbar";
+//import ApproveDeny from "./ApproveDeny";
+//import Navbar from "../../../Navbar";
 
 function PendingRecipes(){
 

@@ -11,7 +11,7 @@ function Latte (){
     <Navbar/>
     <div id="maindiv">
     
-    <img src="images/latte.jpg"/>
+    <img src="images/latte.jpg" alt="latte" />
     <h1>Express Espresso Latte</h1>
     <div id="userdiv">
     <p>If coffee is a good way to start your morning, this rich and nuanced cup will become your  new favorite!</p>

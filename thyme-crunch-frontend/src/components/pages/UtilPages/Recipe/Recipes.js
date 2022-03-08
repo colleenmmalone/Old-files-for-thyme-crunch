@@ -13,9 +13,10 @@ function Recipes() {
            
             <Navbar/>
             
-            <Search/>
+            <Search title="Recipes" />
+
             <center>
-            <Cards/>
+                <Cards/>
             </center>
 
         </div>

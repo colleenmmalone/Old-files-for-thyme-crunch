@@ -10,7 +10,7 @@ function Toast () {
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/toast.jpg"/>
+    <img src="images/toast.jpg" alt="toast" />
     
     <h1>Aboslutely Avocado Toast</h1>
     <div id="userdiv">

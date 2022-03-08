@@ -2,18 +2,21 @@ import React from 'react'
 import Navbar from '../../Navbar';
 import '../../../App.css'
 import BeveragesCards from '../../cards/BeveragesCards';
-import BerSearch from '../UtilPages/Search/BerSearch';
+import Search from '../UtilPages/Search/Search';
 import { RecipeButton } from '../../buttons/RecipeButton';
 
-function Beverages() {
+export default function Beverages() {
     return (
         <>
         <Navbar/>
-        <BerSearch/>
-        <BeveragesCards/>
+        
+        <Search title="Beverages"/>
+
+        <center>
+            <BeveragesCards/>
+        </center>
+        
         <RecipeButton/>
         </>
     )
 }
-
-export default Beverages;

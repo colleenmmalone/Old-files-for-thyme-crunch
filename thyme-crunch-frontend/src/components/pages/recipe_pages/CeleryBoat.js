@@ -12,7 +12,7 @@ function CeleryBoat (){
     
     <Navbar/>
     <div id="maindiv">
-    <img src="images/celery_boats.jpg"/>
+    <img src="images/celery_boats.jpg" alt="celery boats" />
   
     <h1>Sweet and Simple Celery Boats</h1>
     <div id="userdiv">

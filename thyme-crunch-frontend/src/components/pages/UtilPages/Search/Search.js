@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 
-export default function Search() {
+export default function Search(props) {
 
     const [recipes, setRecipes] = useState('');
     const navigate = useNavigate()
@@ -23,7 +23,7 @@ export default function Search() {
 
      return (
          <>
-            <h1 id="recipe-title">Recipes</h1>
+            <h1 id="recipe-title">{props.title}</h1>
 
             {/* <div className='ui_search'> */}
                 <div className='ui_icon_input'>

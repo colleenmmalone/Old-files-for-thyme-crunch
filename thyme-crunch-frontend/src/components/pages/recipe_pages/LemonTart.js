@@ -11,7 +11,7 @@ function LemonTart (){
     <Navbar/>
     <div id="maindiv">
 
-    <img src="images/lemon_tart.jpg"/>
+    <img src="images/lemon_tart.jpg" alt="lemon tart" />
     
     <h1>Lovely Lemon Tart</h1>
     <div id="userdiv">

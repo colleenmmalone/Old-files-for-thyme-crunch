@@ -10,7 +10,7 @@ function Hamburger (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/hamburger.jpg"/>
+    <img src="images/hamburger.jpg" alt="hamburger" />
     
     <h1>Very Gouda Hamburger</h1>
     <div id="userdiv">

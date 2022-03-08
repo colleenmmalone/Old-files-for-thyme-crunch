@@ -2,15 +2,20 @@ import React from 'react';
 import Navbar from '../../Navbar';
 import '../../../App.css';
 import DinnerCards from '../../cards/DinnerCards';
-import DeSearch from '../UtilPages/Search/DeSearch';
+import Search from '../UtilPages/Search/Search';
 import { RecipeButton } from '../../buttons/RecipeButton';
 
 function Dinner() {
     return (
         <>
         <Navbar/>
-        <DeSearch/>
-        <DinnerCards/>
+        
+        <Search title="Dinner" />
+
+        <center>
+            <DinnerCards/>
+        </center>
+
         <RecipeButton/>
         </>
     )

@@ -10,7 +10,7 @@ function Pasta (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/pasta.jpg"/>
+    <img src="images/pasta.jpg" alt="pasta" />
     
     <h1>Quick and Sophisticated<br/> Clam Linguine</h1>
     <div id="userdiv">

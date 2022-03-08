@@ -10,7 +10,7 @@ function Punch (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/punch.jpg"/>
+    <img src="images/punch.jpg" alt="punch" />
     
     <h1>Summery Fruit Punch</h1>
     <div id="userdiv">
