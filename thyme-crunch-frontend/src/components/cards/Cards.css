@@ -7,7 +7,9 @@
  *********************************************************************************/
 
 /* to do: need to make the cards mobile-responsive: flex column in mobile and flex row on desktop */
-
+.cards{
+  align-self: center;
+}
  .submainAll{
   width: 560px;
   height: 400px;
@@ -16,21 +18,6 @@
   position: relative;
  }
 
- /* 
-
-  background-image: url('../images/newDinner.jpg'); 
-
-#submain4{
-  background-image: url('../images/newDess9.jpg'); 
-
-}
-#submain5{
-  background-image: url('../images/newSn1.jpg'); 
-
-}
-#submain6{
-  background-image: url('../images/drink.jpg'); 
-} */
  #bottom{
   padding-left: 10px;
   padding-right: 13px;
@@ -51,7 +38,6 @@
 
    background-color:transparent !important;
 
-   
  }
 #h2p{
   /* font-family: 'Moon Dance', cursive;  */

@@ -2,15 +2,20 @@ import React from 'react';
 import Navbar from '../../Navbar';
 import '../../../App.css'
 import DessertsCards from '../../cards/DessertsCards';
-import DeesSearch from '../UtilPages/Search/DeesSearch';
+import Search from '../UtilPages/Search/Search';
 import { RecipeButton } from '../../buttons/RecipeButton';
 
 function Desserts() {
     return (
         <>
         <Navbar/>
-        <DeesSearch/>
-        <DessertsCards/>
+        
+        <Search title="Desserts"/>
+
+        <center>
+            <DessertsCards/>
+        </center>
+        
         <RecipeButton/>
         </>
     )
