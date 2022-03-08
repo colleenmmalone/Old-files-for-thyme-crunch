@@ -1,6 +1,7 @@
-import React, {useState, useEffect}from 'react';
-import {Link} from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
+
 // import {Button} from './buttons/Button';
 // import AddRecipes from './pages/UtilPages/Recipe/AddRecipes';
 // import PendingRecipes from './pages/UtilPages/Recipe/PendingRec';
@@ -38,7 +39,7 @@ export function Navbar() {
     window.addEventListener('resize', showButton);
 
     const userName = sessionStorage.getItem('name')
-    const string = '  ';
+   // const string = '  ';
 
 
     return (

@@ -1,10 +1,9 @@
-import axios from "axios";
-import React, {useState, useEffect}from "react";
+import React from "react";
 import Navbar from "../../../Navbar"
-import './ShopingList.css';
+import './ShoppingList.css';
 import {ShoppingListConst} from "./ShoppingIngApi";
 
-function ShopingList(){
+function ShoppingList(){
    
  return(
    <>
@@ -36,4 +35,4 @@ function ShopingList(){
 )
  }
 
- export default ShopingList;
+ export default ShoppingList;

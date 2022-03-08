@@ -22,7 +22,7 @@ export default function SignUp() {
     const [email] = useState('');
 
     const fetchEmail = ()=>{
-        var recipe = ""
+       // var recipe = ""
         axios.post(`http://3.14.3.79:9090/api/v1/email/email-sent`).then(res =>{ //http://3.14.3.79:9090/api/v1/recipes/
             console.log(res);
             setEmail(res.data);
@@ -46,12 +46,12 @@ export default function SignUp() {
     }
 
 
-    function handle(e){
-        const newdata={...email}
-        newdata[e.target.id] = e.target.value
-        setEmail(newdata)
-        console.log(newdata)
-    }
+    // function handle(e){
+    //     const newdata={...email}
+    //     newdata[e.target.id] = e.target.value
+    //     setEmail(newdata)
+    //     console.log(newdata)
+    // }
 
 
 

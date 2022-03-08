@@ -38,7 +38,7 @@ export function AdminNavbar2() {
     window.addEventListener('resize', showButton);
 
     const userName = sessionStorage.getItem('name')
-    const string = '  ';
+  //  const string = '  ';
 
 
     return (

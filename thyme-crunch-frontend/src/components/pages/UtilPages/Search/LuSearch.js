@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Search.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { useNavigate} from 'react-router-dom';
 
@@ -8,7 +8,7 @@ export default function LuSearch() {
 
     const [recipes, setRecipes] = useState('');
 
-    const [uData, setUData] = useState("")
+   // const [uData, setUData] = useState("")
     const navigate = useNavigate()
 
 
