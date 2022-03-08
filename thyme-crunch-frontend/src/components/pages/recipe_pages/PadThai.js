@@ -11,7 +11,7 @@ function PadThai(){
     <Navbar/>
     <div id="maindiv">
     
-    <img src="images/pad_thai.jpg"/>
+    <img src="images/pad_thai.jpg" alt="pad thai" />
     <h1>Presto Pad Thai</h1>
      <div id="userdiv">
     <p>Zippy, spicy, and quick to put together. You can be a hero for a weeknight meal with this pad thai!</p>

@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 import React from "react"
 import Navbar from "../../Navbar";
 import '../UtilPages/Profile/UserProfiles.css';
@@ -11,19 +11,19 @@ function Bento (){
     return(
 
     <>
-    <Navbar/>
+    <Navbar />
     <div id="maindiv">
    
-    <img src="images/katsu.jpg"/>
+    <img src="images/katsu.jpg" alt="bento" />
     
     <h1>Katsu Pork Bento Box</h1>
     <div id="userdiv">
     <p>Ditch the sandwhich and rule the lunchroom with a colorful and delicious pork cutlet and veggie bento!</p>
     <hr/>
     </div>
-    <BentoIng/>
-    <RecipeButton/>
-    <EmailButton/>
+    <BentoIng />
+    <RecipeButton />
+    <EmailButton />
     </div>
     </>
     )

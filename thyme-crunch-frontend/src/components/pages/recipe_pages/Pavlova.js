@@ -11,7 +11,7 @@ function Pavlova (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/pavlova.jpg"/>
+    <img src="images/pavlova.jpg" alt="pavlova" />
     
     <h1>Pretty Pavlova</h1>
     <div id="userdiv">

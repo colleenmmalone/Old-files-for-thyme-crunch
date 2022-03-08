@@ -11,7 +11,7 @@ function Hummus (){
     <Navbar/>
     <div id="maindiv">
     
-    <img src="images/hummus.jpg"/>
+    <img src="images/hummus.jpg" alt="hummus" />
     <h1>Hungry for Hummus</h1>
     <div id="userdiv">
     <p>Rich tahini and warm spices blend with creamy chickpeas for a deceptively healthy and outrageously delicious dip!</p>

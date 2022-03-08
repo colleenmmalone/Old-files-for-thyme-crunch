@@ -10,7 +10,7 @@ function Granola (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/granola.jpg"/>
+    <img src="images/granola.jpg" alt="granola" />
     
     <h1>Wholesome Whole Food Oat Granola</h1>
     <div id="userdiv">
