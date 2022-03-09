@@ -10,11 +10,11 @@ import './Cards.css';
  * Availability: https://youtu.be/I2UBjN5ER4s
  *********************************************************************************/
 
-function Card() {
+export default function Card() {
     return (
         <div className='cards'>
-            <div id="main-re">
-                <div class="marquee">
+            
+                
 
                     <CardItem 
                         src='../images/breakfast-1.png'
@@ -38,7 +38,7 @@ function Card() {
                         />
 
                     <CardItem 
-                        src='../images/pink-pie.jpg'
+                        src='images/pavlova.jpg'
                         text="Indulge your sweet tooth"
                         label= "Desserts"
                         path="/desserts"
@@ -59,9 +59,7 @@ function Card() {
                         />
        
                     </div>
-            </div>          
-        </div>
+                     
+    
     )
 }
-
-export default Card

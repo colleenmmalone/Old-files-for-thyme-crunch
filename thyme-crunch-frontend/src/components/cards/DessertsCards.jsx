@@ -18,7 +18,6 @@ export default function DessertsCards() {
 
     return (
         <div className='cards'>
-            <div id="main-re">
 
                 <CardItem 
                         src='../images/gelato.jpg'
@@ -41,7 +40,6 @@ export default function DessertsCards() {
                         path="/pavlova"
                         />
 
-            </div>
         </div>
     )
 }

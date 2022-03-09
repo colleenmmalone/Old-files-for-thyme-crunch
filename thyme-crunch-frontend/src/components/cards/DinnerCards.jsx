@@ -19,7 +19,6 @@ export default function DinnerCards() {
     return (
 
         <div className='cards'>
-            <div id="main-re">
 
                 <CardItem 
                     src='../images/hamburger.jpg'
@@ -42,7 +41,6 @@ export default function DinnerCards() {
                     path="/pad thai"
                     />
 
-            </div>
         </div>
     )
 }
