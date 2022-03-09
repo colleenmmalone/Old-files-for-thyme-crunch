@@ -10,7 +10,7 @@ function Gelato (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/gelato.jpg"/>
+    <img src="images/gelato.jpg" alt="gelato" />
     
     <h1>Black Forest Gelato with Ganache</h1>
     <div id="userdiv">

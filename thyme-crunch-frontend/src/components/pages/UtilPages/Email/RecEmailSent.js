@@ -5,7 +5,7 @@ import Navbar from '../../../Navbar';
 
 function RecEmailSent() {
     const url =""
-    const [recipe, setRecipe] = useState([]);
+    //const [recipe, setRecipe] = useState([]);
     const [email, setEmail] = useState({
         email: ""
     })    

@@ -6,7 +6,7 @@ import '../../../../App.css';
 
 import Navbar from '../../../Navbar';
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 
 import { useNavigate} from 'react-router-dom';
@@ -20,7 +20,7 @@ export default function AddRecipes() {
     const [fourthIngredient, setFourthIngredient] = useState('');
     const [fifthIngredient, setFifthIngredient] = useState('');
     
-    const [uData, setUData] = useState("")
+   // const [uData, setUData] = useState("")
     const navigate = useNavigate()
 
 

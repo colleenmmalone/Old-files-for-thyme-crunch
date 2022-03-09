@@ -27,7 +27,7 @@ export const UserProfiles = ()=> {
             <div  key={index}>
                 {user.userID ? (
                     <img 
-                        src={`http://3.14.3.79:9090/api/v1/users/${user.userID}/image/download`}
+                        src={`http://3.14.3.79:9090/api/v1/users/${user.userID}/image/download`} alt="download" 
                     />
                 ):null}
                <br/>

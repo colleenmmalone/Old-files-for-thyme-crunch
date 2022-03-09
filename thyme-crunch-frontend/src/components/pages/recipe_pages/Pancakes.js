@@ -10,7 +10,7 @@ function Pancakes (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/pancakes.jpg"/>
+    <img src="images/pancakes.jpg" alt="pancakes" />
     
     <h1>Fluffy Buttermilk Pancakes</h1>
     <div id="userdiv">

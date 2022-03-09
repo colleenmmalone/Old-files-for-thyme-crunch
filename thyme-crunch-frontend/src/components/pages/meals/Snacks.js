@@ -2,14 +2,19 @@ import React from 'react'
 import Navbar from '../../Navbar'
 import '../../../App.css'
 import SnacksCards from '../../cards/SnacksCards';
-import SnSearch from '../UtilPages/Search/SnSearch';
+import Search from '../UtilPages/Search/Search';
 import { RecipeButton } from '../../buttons/RecipeButton';
 function Snacks() {
     return (
         <>
         <Navbar/>
-        <SnSearch/>
-        <SnacksCards/>
+
+        <Search title="Snacks" />
+
+        <center>
+            <SnacksCards/>
+        </center>
+        
         <RecipeButton/>
         </>
     )

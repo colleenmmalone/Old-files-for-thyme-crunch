@@ -2,7 +2,7 @@ import React from 'react'
 import './Login.css';
 import '../../../../App.css';
 import FirstNavbar from '../../../FirstNavbar';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { useNavigate} from 'react-router-dom';
 
@@ -11,7 +11,7 @@ export default function Login() {
     const [uname, setUsername] = useState('');
     const [upassword, setPassword] = useState('');
     
-    const [uData, setUData] = useState("")
+    //const [uData, setUData] = useState("")
     const navigate = useNavigate()
 
 

@@ -2,18 +2,22 @@ import React from 'react'
 import Navbar from '../../Navbar'
 import '../../../App.css'
 import BreakfastCards from '../../cards/BreakfastCards';
-import DerSearch from '../UtilPages/Search/DerSearch';
+import Search from '../UtilPages/Search/Search';
 import { RecipeButton } from '../../buttons/RecipeButton';
 
-function Breakfast() {
+export default function Breakfast() {
     return (
         <>
         <Navbar/>
-        <DerSearch/>
-        <BreakfastCards/>
+        
+        <Search title="Breakfast"/>
+
+        <center>
+            <BreakfastCards/>
+        </center>
+
         <RecipeButton/>
         </>
     )
 }
 
-export default Breakfast

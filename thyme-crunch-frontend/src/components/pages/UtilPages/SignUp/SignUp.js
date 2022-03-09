@@ -14,7 +14,7 @@ export default function SignUp() {
     const [uuname, setUsername] = useState('');
     const [uupassword, setPassword] = useState('');
     
-    const [uData, setUData] = useState("")
+  //  const [uData, setUData] = useState("")
     const navigate = useNavigate()
 
     const url =""
@@ -22,7 +22,7 @@ export default function SignUp() {
     const [email] = useState('');
 
     const fetchEmail = ()=>{
-        var recipe = ""
+       // var recipe = ""
         axios.post(`http://3.14.3.79:9090/api/v1/email/email-sent`).then(res =>{ //http://3.14.3.79:9090/api/v1/recipes/
             console.log(res);
             setEmail(res.data);
@@ -46,12 +46,12 @@ export default function SignUp() {
     }
 
 
-    function handle(e){
-        const newdata={...email}
-        newdata[e.target.id] = e.target.value
-        setEmail(newdata)
-        console.log(newdata)
-    }
+    // function handle(e){
+    //     const newdata={...email}
+    //     newdata[e.target.id] = e.target.value
+    //     setEmail(newdata)
+    //     console.log(newdata)
+    // }
 
 
 
@@ -79,9 +79,9 @@ export default function SignUp() {
               <div>
               <form onSubmit={(e) => signup(e)}>
                 <div>
-                  <div>
+                
                   <h1 id="t2">Sign Up Page</h1>
-                  </div>
+                
                  <div className="form">
                  <div className="first-input">
                     <p>First Name</p>

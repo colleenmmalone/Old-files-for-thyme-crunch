@@ -1,5 +1,4 @@
-import axios from "axios";
-import React, {useState, useEffect, useCallback}from "react"
+import React from "react"
 import Navbar from "../../Navbar";
 import '../UtilPages/Profile/UserProfiles.css';
 import { PavlovaIng } from '../RecApiCalls/PavolvaApi';
@@ -11,7 +10,7 @@ function Pavlova (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/pavlova.jpg"/>
+    <img src="images/pavlova.jpg" alt="pavlova" />
     
     <h1>Pretty Pavlova</h1>
     <div id="userdiv">

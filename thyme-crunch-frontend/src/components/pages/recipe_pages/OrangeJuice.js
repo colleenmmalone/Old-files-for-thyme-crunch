@@ -11,7 +11,7 @@ function OrangeJuice (){
     <Navbar/>
     <div id="maindiv">
    
-    <img src="images/orange_juice.jpg"/>
+    <img src="images/orange_juice.jpg" alt="orange juice"/>
     <h1>Old-Fashioned Orange Juice</h1>
     <div id="userdiv">
     <p>Nothing says good morning like a freshly-squeezed glass of sunshine!</p>

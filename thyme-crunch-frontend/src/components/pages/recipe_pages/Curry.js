@@ -10,7 +10,7 @@ function Curry (){
     <>
     <Navbar/>
     <div id="maindiv">
-    <img src="images/curry.jpg"/>
+    <img src="images/curry.jpg" alt="curry" />
     
     <h1>Yellow Curry</h1>
     <div id="userdiv">

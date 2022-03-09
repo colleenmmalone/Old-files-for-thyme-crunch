@@ -10,97 +10,56 @@ import './Cards.css';
  * Availability: https://youtu.be/I2UBjN5ER4s
  *********************************************************************************/
 
-function Card() {
+export default function Card() {
     return (
         <div className='cards'>
-            <div id="main-re">
-                <div class="marquee">
-                    <li class="marquee-content">
-                        <li>
-                            <div id="bigDiv1" className="bigDivAll">
-                                    <a className="hov" href="/breakfast">
-                                        <div id="submain1" className="submainAll">
-                                            <div id="bottom">Breakfast</div>
-                                        </div>
-                                    </a>
-                                    
-                                <div id="pdiv">
-                                <h2 id="h2p">Start your day with a healthy breakfast</h2>
-                                </div>
-                            </div>
-                        </li>
+            
+                
 
-                        <li>
-                            <div id="bigDiv2" className="bigDivAll">
+                    <CardItem 
+                        src='../images/breakfast-1.png'
+                        text="Start your day with a healthy breakfast"
+                        label= "Breakfast"
+                        path="/breakfast"
+                        />
 
-                                <a className="hover" href="/lunch">
-                                    <div id="submain2" className="submainAll">
-                                        <div id="bottom">Lunch</div>
-                                    </div>
-                                </a>
-                                
-                                <div id="pdiv">
-                                <h2 id="h2p">Power through with a delicious lunch</h2>
-                                </div>
-                            </div>
-                        </li>
+                    <CardItem 
+                        src='../images/lunch.jpg'
+                        text="Power through with a delicious lunch"
+                        label= "Lunch"
+                        path="/lunch"
+                        />
 
-                        <li>
-                            <div id="bigDiv3" className="bigDivAll">
-                                <a className="hover" href="/dinner">
-                                    <div id="submain3" className="submainAll">
-                                        <div id="bottom">Dinner</div>
-                                    </div>
-                                </a>
-                                <div id="pdiv">
-                                    <h2 id="h2p">Beat the clock with a speedy dinner</h2>
-                                </div>
-                            </div>
-                        </li>
+                    <CardItem 
+                        src='../images/dinner.jpg'
+                        text="Beat the clock with a speedy dinner"
+                        label= "Dinner"
+                        path="/dinner"
+                        />
 
-                        <li>
-                        <div id="bigDiv4" className="bigDivAll">
-                            <a className="hover" href="/desserts">
-                                <div id="submain4" className="submainAll">
-                                    <div id="bottom">Desserts</div>
-                                </div>
-                            </a>
-                            <div id="pdiv">
-                                <h2 id="h2p">Indulge your sweet tooth<br/>with yummy desserts</h2>
-                            </div>
-                        </div>
-                        </li>
+                    <CardItem 
+                        src='images/pavlova.jpg'
+                        text="Indulge your sweet tooth"
+                        label= "Desserts"
+                        path="/desserts"
+                        />
 
-                        <li>
-                        <div id="bigDiv5" className="bigDivAll">
-                            <a className="hover" href="/snacks">
-                                <div id="submain5" className="submainAll">
-                                    <div id="bottom">Snacks</div>
-                                </div>
-                            </a>
-                            <div id="pdiv">
-                                <h2 id="h2p">Refuel with a pick-me-up snack</h2>
-                            </div>
-                        </div>
-                        </li>
-                        
-                        <li>
-                        <div id="bigDiv6" className="bigDivAll">
-                            <a className="hover" href="/beverages">
-                                <div id="submain6" className="submainAll">
-                                    <div id="bottom">Beverage</div>
-                                </div>
-                            </a>
-                            <div id="pdiv">
-                            <h2 id="h2p">Refresh yourself with a beverage</h2>
-                            </div>
-                        </div>
-                        </li>>
-                    </li>
-                </div>
-            </div>          
-        </div>
+                    <CardItem 
+                        src='../images/snack.jpg'
+                        text="Refuel with a tasty pick-me-up"
+                        label= "Snacks"
+                        path="/snacks"
+                        />
+
+                    <CardItem 
+                        src='../images/drink.jpg'
+                        text="Sip, ahhhhh, repeat"
+                        label= "Beverages"
+                        path="/beverages"
+                        />
+       
+                    </div>
+                     
+    
     )
 }
-
-export default Card

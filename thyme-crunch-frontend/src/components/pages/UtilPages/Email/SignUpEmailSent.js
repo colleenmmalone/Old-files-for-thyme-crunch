@@ -12,7 +12,7 @@ function SignUpEmailSent() {
     })    
     const userEmail = sessionStorage.getItem('email');
     const fetchEmail = ()=>{
-        var recipe = ""
+        //var recipe = ""
         axios.post(`http://3.14.3.79:9090/api/v1/email/signup-email-sent/${userEmail}`).then(res =>{ //http://3.14.3.79:9090/api/v1/recipes/
             console.log(res);
             setEmail(res.data);
@@ -36,12 +36,12 @@ function SignUpEmailSent() {
     }
 
 
-    function handle(e){
-        const newdata={...email}
-        newdata[e.target.id] = e.target.value
-        setEmail(newdata)
-        console.log(newdata)
-    }
+    // function handle(e){
+    //     const newdata={...email}
+    //     newdata[e.target.id] = e.target.value
+    //     setEmail(newdata)
+    //     console.log(newdata)
+    // }
 
     return (
         <>

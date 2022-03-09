@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from '../buttons/Button';
 import './VideoSection.css';
 import '../../App.css';
-import { Link } from 'react-router-dom';
 
 function VideoSection() {
     return (
