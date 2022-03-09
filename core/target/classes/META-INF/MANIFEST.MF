@@ -9,10 +9,12 @@ Export-Package: com.thymecrunch.core.filters;version="1.0",com.thymecr
  unch.core.listeners;version="1.0",com.thymecrunch.core.models;version
  ="1.0",com.thymecrunch.core.schedulers;version="1.0",com.thymecrunch.
  core.servlets;version="1.0"
-Private-Package: com.p2.recApp,com.p2.recApp.bucket,com.p2.recApp.conf
- ig,com.p2.recApp.configuration,com.p2.recApp.filestore,com.p2.recApp.
- ingredients,com.p2.recApp.login,com.p2.recApp.recipes,com.p2.recApp.s
- hopinglist,com.p2.recApp.springemailclient,com.p2.recApp.users
+Private-Package: com.thymecrunch.recApp,com.thymecrunch.recApp.bucket,
+ com.thymecrunch.recApp.config,com.thymecrunch.recApp.configuration,co
+ m.thymecrunch.recApp.filestore,com.thymecrunch.recApp.ingredients,com
+ .thymecrunch.recApp.login,com.thymecrunch.recApp.recipes,com.thymecru
+ nch.recApp.shopinglist,com.thymecrunch.recApp.springemailclient,com.t
+ hymecrunch.recApp.users
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
  ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s

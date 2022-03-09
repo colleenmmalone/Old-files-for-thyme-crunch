@@ -13,8 +13,8 @@ import './Cards.css';
 function Card() {
     return (
         <div className='cards'>
-            <div id="main-re">
-                <div class="marquee">
+            
+                
 
                     <CardItem 
                         src='../images/breakfast-1.png'
@@ -59,8 +59,8 @@ function Card() {
                         />
        
                     </div>
-            </div>          
-        </div>
+                     
+    
     )
 }
 

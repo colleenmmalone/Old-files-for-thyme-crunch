@@ -8,7 +8,11 @@
 
 /* to do: need to make the cards mobile-responsive: flex column in mobile and flex row on desktop */
 .cards{
-  align-self: center;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
 }
  .submainAll{
   width: 560px;

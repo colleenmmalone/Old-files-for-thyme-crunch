@@ -9,7 +9,7 @@ export default function Search(props) {
     const [recipes, setRecipes] = useState('');
     const navigate = useNavigate()
 
-    function submit0(){
+    function submit(){
         const a = recipes
         axios.post(`http://3.14.3.79:9090/api/v1/recipes/all-recipes/${a}/`)
             .then(response =>{
@@ -25,15 +25,16 @@ export default function Search(props) {
          <>
             <h1 id="recipe-title">{props.title}</h1>
 
-            {/* <div className='ui_search'> */}
+            <div className='ui_search'>
                 <div className='ui_icon_input'>
-                    {/* <i class="fa fa-search" aria-hidden="true"></i> */}
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder='Search for a recipe' className='prompt' onChange={e => setRecipes(e.target.value)} />
-                    <button id="serbutton"onClick={submit0}>Go</button>
+                    <i className="fas fa-search"></i>
+                    <input type="text" placeholder='Search for a recipe' 
+                        onChange={ e => setRecipes(e.target.value) } 
+                    />
+                    <button id="serbutton" onClick={ submit }>Go</button>
                 </div>
                 
-            {/* </div>  */}
+            </div> 
          </>
             
      )
