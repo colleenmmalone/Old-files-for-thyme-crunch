@@ -2,7 +2,7 @@ import React from 'react'
 import '../SignUp/SignUp.css';
 
 import '../../../../App.css';
-import Navbar from '../../../Navbar';
+import Navbar from '../../../navbar/Navbar';
 
 import { useState } from "react";
 import axios from "axios";

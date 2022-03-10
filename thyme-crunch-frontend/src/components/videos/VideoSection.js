@@ -9,7 +9,7 @@ function VideoSection() {
             <video src="videos/video.mp4" autoPlay loop muted></video>
             <div id='textOverlay'>
                 <h1 id='videoH1'>ThymeCrunch</h1>
-                <p id='videoP'>No thyme for complicated recipies? No Worries, We'll make it easy!</p>
+                <p id='videoP'>No thyme for complicated recipies?<br/>No Worries, We'll make it easy!</p>
                 <div className='video-btns'>
                     <Button 
                         className='btns' buttonStyle='btn--outline' 

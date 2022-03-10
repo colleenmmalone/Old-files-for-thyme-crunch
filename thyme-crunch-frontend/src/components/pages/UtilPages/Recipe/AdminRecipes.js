@@ -1,5 +1,5 @@
 import React from 'react'
-import AdminNavbar from '../../../AdminNavbar';
+import AdminNavbar from '../../../navbar/AdminNavbar';
 import Cards from '../../../cards/Cards';
 import Search from '../Search/Search';
 import '../../../../App.css';

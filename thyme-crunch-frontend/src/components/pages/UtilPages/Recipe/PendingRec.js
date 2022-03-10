@@ -1,4 +1,4 @@
-import AdminNavbar2 from "../../../AdminNavbar2"
+import AdminNavbar2 from "../../../navbar/AdminNavbar2"
 import React from "react";
 import { PendingRecipesConst } from './PendingRecApi';
 import './PendingRecipes.css';

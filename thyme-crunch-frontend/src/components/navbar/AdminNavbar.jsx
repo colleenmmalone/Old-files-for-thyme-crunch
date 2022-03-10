@@ -44,7 +44,7 @@ export function FirstNavbar() {
             <div className="navbar-container">
                 
                 <Link to= "/" className='navbarLogo'>
-                    <img id="ourlogo" src={require('.//images/thymecrunchlogowhite.jpg')}
+                    <img id="ourlogo" src={require('../images/thymecrunchlogowhite.jpg')}
                     alt='logo' />
                 </Link>
 

@@ -1,4 +1,4 @@
-import Navbar from "../../../Navbar"
+import Navbar from "../../../navbar/Navbar"
 import { ApprovedRecipes } from './UserRecipesApi';
 import React from "react";
 // import '../Profile/UserProfiles.css';
