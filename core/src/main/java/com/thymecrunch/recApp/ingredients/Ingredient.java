@@ -1,22 +1,22 @@
-package com.p2.recApp.ingredients;
+package com.thymecrunch.recApp.ingredients;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
+// import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+// import lombok.AllArgsConstructor;
+// import lombok.Data;
+// import lombok.EqualsAndHashCode;
+// import lombok.Getter;
+// import lombok.NoArgsConstructor;
+// import lombok.Setter;
+// import lombok.ToString;
 /*************************************Works Cited*********************************************
  * Title: "Java Tutorial - Complete User Login and Registration Backend + Email Verification"
  * Author: Nelson (amigoscode)

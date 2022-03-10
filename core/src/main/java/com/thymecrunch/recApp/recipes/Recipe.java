@@ -1,6 +1,6 @@
-package com.p2.recApp.recipes;
+package com.thymecrunch.recApp.recipes;
 
-import java.util.Objects;
+// import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

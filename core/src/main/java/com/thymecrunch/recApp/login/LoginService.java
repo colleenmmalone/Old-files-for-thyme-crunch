@@ -1,4 +1,4 @@
-package com.p2.recApp.login;
+package com.thymecrunch.recApp.login;
 
 public class LoginService {
 
