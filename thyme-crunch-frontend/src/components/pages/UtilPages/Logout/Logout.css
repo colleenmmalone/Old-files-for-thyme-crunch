@@ -31,12 +31,12 @@ video{
 
 }
 
-.video-container >h1{
+/* .video-container >h1{
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
      
-}
+} */
 
 .video-container >p{
     color: #fff;
@@ -57,19 +57,19 @@ video{
     margin-left: 4px;
 }
 
-@media screen and (max-width:960px) {
+/* @media screen and (max-width:960px) {
     .video-container >h1{
         font-size: 70px;
         margin-top: -150px;
     }
     
-}
+} */
 
 @media screen and (max-width: 768px){
-    .video-container >h1{
+    /* .video-container >h1{
         font-size: 50px;
         margin-top: -100px;
-    }
+    } */
 
     .video-container >p{
         font-size: 30px;
@@ -84,9 +84,9 @@ video{
         width: 100%;
     }
 
-    #videoH1{
+    /* #videoH1{
         color: #fff;
-    }
+    } */
 
     #videoP{
         color: #fff;

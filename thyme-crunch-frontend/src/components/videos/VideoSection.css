@@ -8,14 +8,12 @@ video {
 
 #textOverlay {
   position: absolute;
-  top: 50%;
-  left: 32%;
   z-index: 1;
   color: #fff;
+  text-align: center;
 }
 
 .video-container {
-  /* background: url('/Frontend/app-app/public/cupcake.png') center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
@@ -78,15 +76,38 @@ video {
     width: 100%;
   }
 
-  #videoH1 {
-    color: #fff;
-  }
-
-  #videoP {
-    color: #fff;
-  }
-
   #thyme {
     color: rgb(57, 192, 147);
   }
+}
+
+#vsH1 {
+  /* margin-left: 30%; */
+  background-color: rgba(3, 49, 41, 0.808);
+  width: fit-content;
+  float: none;
+  text-align: center;
+  border-radius: 0px 20px 0px 0px;
+  color: white;
+  font-style: italic;
+  font-family: "Moon Dance", cursive;
+  font-size: 400%;
+  padding: 0px 22px 5px 10px;
+  margin-bottom: 5px;
+}
+
+#vsP {
+  color: white;
+  font-size: 130%;
+  text-align: center;
+}
+
+#vsBtn {
+  margin: 20px;
+  font-size: 170%;
+}
+
+#vsBtn:hover {
+  background-color: white;
+  color: rgba(3, 49, 41, 0.808);
 }
