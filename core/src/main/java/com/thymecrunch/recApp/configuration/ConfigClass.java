@@ -1,4 +1,4 @@
-package com.p2.recApp.configuration;
+package com.thymecrunch.recApp.configuration;
 
 import org.springframework.context.annotation.Configuration;
 

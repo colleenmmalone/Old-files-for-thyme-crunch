@@ -1,4 +1,4 @@
-package com.p2.recApp.filestore;
+package com.thymecrunch.recApp.filestore;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

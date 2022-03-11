@@ -1,22 +1,22 @@
-package com.p2.recApp.login;
+package com.thymecrunch.recApp.login;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.http.ResponseEntity;
+// import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+// import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+// import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.amazonaws.services.cognitoidp.model.UserNotFoundException;
-import com.p2.recApp.configuration.ConfigClass;
-import com.p2.recApp.users.*;
+// import com.amazonaws.services.cognitoidp.model.UserNotFoundException;
+// import com.thymecrunch.recApp.configuration.ConfigClass;
+import com.thymecrunch.recApp.users.*;
 
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 @RestController
@@ -116,8 +116,8 @@ public class LoginController {
 		System.out.println("User:____________" + user);
 		System.out.println(" username ***********: "+ user.getUsername());
 		//System.out.println("User:____________" + user);
-        Optional<User> userData = userRepository.findByUsername(user.getUsername());
-        User _user = userData.get();
+        // Optional<User> userData = userRepository.findByUsername(user.getUsername());
+        // User _user = userData.get();
         //System.out.println(" username ***********: "+ user.getUsername());
         
         return "ok";

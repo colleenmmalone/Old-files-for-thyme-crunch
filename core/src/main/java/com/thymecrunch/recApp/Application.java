@@ -1,4 +1,4 @@
-package com.p2.recApp;
+package com.thymecrunch.recApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

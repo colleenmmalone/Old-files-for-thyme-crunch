@@ -1,11 +1,11 @@
-package com.p2.recApp.configuration;
+package com.thymecrunch.recApp.configuration;
 
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+// import org.aspectj.lang.annotation.Before;
+// import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
 
-import com.p2.recApp.login.LoginPOJO;
+// import com.thymecrunch.recApp.login.LoginPOJO;
 
 //import ch.qos.logback.classic.Logger;
 import java.util.logging.Logger;

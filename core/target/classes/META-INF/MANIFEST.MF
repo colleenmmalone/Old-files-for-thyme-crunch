@@ -13,8 +13,8 @@ Private-Package: com.thymecrunch.recApp,com.thymecrunch.recApp.bucket,
  com.thymecrunch.recApp.config,com.thymecrunch.recApp.configuration,co
  m.thymecrunch.recApp.filestore,com.thymecrunch.recApp.ingredients,com
  .thymecrunch.recApp.login,com.thymecrunch.recApp.recipes,com.thymecru
- nch.recApp.shopinglist,com.thymecrunch.recApp.springemailclient,com.t
- hymecrunch.recApp.users
+ nch.recApp.shoppinglist,com.thymecrunch.recApp.springemailclient,com.
+ thymecrunch.recApp.users
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
  ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s

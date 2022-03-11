@@ -1,10 +1,10 @@
-package com.p2.recApp.ingredients;
+package com.thymecrunch.recApp.ingredients;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+// import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+// import java.util.Optional;
+// import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.p2.recApp.shopinglist.ShopingList;
-import com.p2.recApp.shopinglist.ShopingListRepository;
-import com.p2.recApp.users.User;
-import com.p2.recApp.users.UserService;
+import com.thymecrunch.recApp.shoppinglist.ShoppingList;
+import com.thymecrunch.recApp.shoppinglist.ShoppingListRepository;
+// import com.thymecrunch.recApp.users.User;
+// import com.thymecrunch.recApp.users.UserService;
 
 @RestController
 @RequestMapping("/api/v1/recipes")
@@ -26,33 +26,33 @@ public class IngredientController {
 	
 //	public List<Ingredient> userIngredient = new ArrayList<>();
 //	public Recipe userRecipe = new Recipe();
-	ShopingListRepository shopingListRepository;
+	ShoppingListRepository shoppingListRepository;
 	
 	private final IngredientService ingredientService;
 //	private ArrayList<Recipe> recipes = new ArrayList<>();
-	private Recipe pancakes;
-	private Recipe boba_tea;
-	private Recipe punch;
-	private Recipe orange_juice;
-	private Recipe latte;
-	private Recipe pavlova;
-	private Recipe black_forest_gelato_with_ganache;
-	private Recipe lemon_tart;
-	private Recipe hummus;
-	private Recipe fruit_stars;
-	private Recipe celery_boats;
-	private Recipe pad_thai;
-	private Recipe pasta;
-	private Recipe hamburger;
-	private Recipe salad;
-	private Recipe curry;
-	private Recipe bento;
-	private Recipe avocado_toast;
-	private Recipe granola;
+	// private Recipe pancakes;
+	// private Recipe boba_tea;
+	// private Recipe punch;
+	// private Recipe orange_juice;
+	// private Recipe latte;
+	// private Recipe pavlova;
+	// private Recipe black_forest_gelato_with_ganache;
+	// private Recipe lemon_tart;
+	// private Recipe hummus;
+	// private Recipe fruit_stars;
+	// private Recipe celery_boats;
+	// private Recipe pad_thai;
+	// private Recipe pasta;
+	// private Recipe hamburger;
+	// private Recipe salad;
+	// private Recipe curry;
+	// private Recipe bento;
+	// private Recipe avocado_toast;
+	// private Recipe granola;
 	@Autowired
-	public IngredientController(IngredientService ingredientService, ShopingListRepository shopingListRepository) {
+	public IngredientController(IngredientService ingredientService, ShoppingListRepository shoppingListRepository) {
 		this.ingredientService = ingredientService;
-		this.shopingListRepository = shopingListRepository;
+		this.shoppingListRepository = shoppingListRepository;
 	}
 	
 	@GetMapping
@@ -68,11 +68,11 @@ public class IngredientController {
 
 //		ShopingList shopinglist = new ShopingList();
 		for(Ingredient a: newRecipe) {
-			ShopingList shopinglist = new ShopingList(username, a.ingName );
+			ShoppingList shoppinglist = new ShoppingList(username, a.ingName );
 //			shopinglist.setUsername(username);
 //			shopinglist.setIngredientName(a.ingName); 
-			shopingListRepository.save(shopinglist);
-			System.out.println("shopinglist" + shopinglist);
+			shoppingListRepository.save(shoppinglist);
+			System.out.println("shoppinglist" + shoppinglist);
 		}
 		
 		return newRecipe;

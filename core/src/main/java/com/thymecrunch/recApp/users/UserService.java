@@ -1,14 +1,14 @@
-package com.p2.recApp.users;
+package com.thymecrunch.recApp.users;
 
 import java.io.IOException;
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 
-import static org.apache.http.entity.ContentType.*;
+// import static org.apache.http.entity.ContentType.*;
 import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.userdetails.UserDetails;
 //import org.springframework.security.core.userdetails.UserDetailsService;
@@ -17,10 +17,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.p2.recApp.bucket.BucketName;
-import com.p2.recApp.filestore.FileStore;
+import com.thymecrunch.recApp.bucket.BucketName;
+import com.thymecrunch.recApp.filestore.FileStore;
 
-import lombok.AllArgsConstructor;
+// import lombok.AllArgsConstructor;
 /*************************************Works Cited*********************************************
  * Title: "Java Tutorial - Complete User Login and Registration Backend + Email Verification"
  * Author: Nelson (amigoscode)
@@ -44,12 +44,12 @@ public class UserService/* implements UserDetailsService*/ {
 
 	private final FileStore fileStore;
 	private final UserRepository userRepository;
-	private String username;
-	private String password;
-	private String email;
-	private String firstname;
-	private String lastname;
-	private String profile_pic;
+	// private String username;
+	// private String password;
+	// private String email;
+	// private String firstname;
+	// private String lastname;
+	// private String profile_pic;
 	
 	
 	public String signUpUser(User user) {

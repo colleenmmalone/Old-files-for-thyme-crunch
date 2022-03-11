@@ -1,6 +1,6 @@
-
+/* 
 #pendingId{
-  /*background-image: url("../../../../../public/images/thymecrunchlogo\ \(1\).jpg");*/
+  /*background-image: url("../../../../../public/images/thymecrunchlogo\ \(1\).jpg");
   background-position: fixed;
   background-repeat:repeat-y;
   background-size: 14%;  
@@ -23,18 +23,18 @@
     
 }
 .headerCol{
-    /* border: solid; */
+    /* border: solid; 
     border-color: gray;
     padding: 15px 15px;
     background-color: rgba(27, 73, 50, 0.432);
     border-radius: 50%;
 }
 .bodyRow{
-  /* border: solid; */
+  /* border: solid; 
   border-color: gray;
 }
 .bodyCol{
-  /* border: solid; */
+  /* border: solid; 
   border-color: gray;
   padding: 15px 15px;
 }
@@ -45,7 +45,7 @@
 #pendingId{
   margin-left: 60px;
   margin-top: 40px;
-  /* width: 5px; */
+  /* width: 5px; 
 }
 .pendingInput{
 margin-top: 10px;
@@ -70,4 +70,4 @@ background-color: rgba(68, 60, 60, 0.425);
   color:white;
   background-color:rgb(19, 58, 37) ;
   border-radius: 25%;
-}
+} */

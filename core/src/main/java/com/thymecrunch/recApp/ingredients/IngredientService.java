@@ -1,4 +1,4 @@
-package com.p2.recApp.ingredients;
+package com.thymecrunch.recApp.ingredients;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.p2.recApp.ingredients.IngredientRepository;
+// import com.thymecrunch.recApp.ingredients.IngredientRepository;
 
-import lombok.AllArgsConstructor;
+// import lombok.AllArgsConstructor;
 
 /*************************************Works Cited*********************************************
  * Title: "Java Tutorial - Complete User Login and Registration Backend + Email Verification"

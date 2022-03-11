@@ -1,7 +1,8 @@
 import './Login.css';
 import profile from './images/profile.jpg';
-import email from './images/email.jpg';
-import pass from './images/fa.PNG';
+// import email from './images/email.jpg';
+// import pass from './images/fa.PNG';
+
 export default function Login(){
     return(
       <>

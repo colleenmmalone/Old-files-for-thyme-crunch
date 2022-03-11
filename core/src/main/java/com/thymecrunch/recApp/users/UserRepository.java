@@ -1,4 +1,4 @@
-package com.p2.recApp.users;
+package com.thymecrunch.recApp.users;
 
 
 import java.util.List;
