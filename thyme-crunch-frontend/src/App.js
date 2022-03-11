@@ -87,6 +87,8 @@ function App() {
         <Route path ="/sign-up" element={<SignUp/>}/>
         <Route path ="/logout" element={<Logout/>}/>
         <Route path ="/recipes" element={<Recipes/>}/>
+
+        {/* meals */}
         <Route path ="/breakfast" element={<Breakfast/>}/>
         <Route path ="/lunch" element={<Lunch/>}/>
         <Route path ="/dinner" element={<Dinner/>}/>
@@ -94,6 +96,8 @@ function App() {
         <Route path ="/desserts" element={<Desserts/>}/>
         <Route path ="/snacks" element={<Snacks/>}/>
         <Route path ="/pancakes" element={<Pancakes/>}/>
+
+        {/* recipes */}
         <Route path ="/granola" element={<Granola/>}/>
         <Route path ="/toast" element={<Toast/>}/>
         <Route path ="/bento" element={<Bento/>}/>
@@ -112,6 +116,8 @@ function App() {
         <Route path ="/boba-tea" element={<BobaTea/>}/>
         <Route path ="/orange-juice" element={<OrangeJuice/>}/>
         <Route path ="/punch" element={<Punch/>}/>
+
+        {/* email */}
         <Route path ="/passwordrecovery" element={<PasswordRecovery/>}/>
         <Route path ="/recipe-email-sent" element={<RecEmailSent/>}/>
         <Route path ="/signup-email-sent" element={<SignUpEmailSent/>}/>

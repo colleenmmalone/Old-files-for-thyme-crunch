@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css';
 import '../../../../App.css';
-import FirstNavbar from '../../../navbar/FirstNavbar';
+import Navbar from '../../../navbar/Navbar';
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate} from 'react-router-dom';
@@ -45,7 +45,7 @@ export default function Login() {
   }
     return(
         <>
-          <FirstNavbar/>
+          <Navbar/>
           <div className="main1">
             <div className="sub-main1">
               <div>

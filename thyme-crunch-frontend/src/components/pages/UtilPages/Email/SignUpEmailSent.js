@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from'axios';
 import { Link } from 'react-router-dom';
-import FirstNavbar from '../../../navbar/FirstNavbar';
+import Navbar from '../../../navbar/Navbar';
 import './SignUpEmailSent.css';
 
 
@@ -45,7 +45,7 @@ function SignUpEmailSent() {
 
     return (
         <>
-        <FirstNavbar/>
+        <Navbar/>
         <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
             <div class="container">
                 <form onSubmit={(e) => home(e)}>
