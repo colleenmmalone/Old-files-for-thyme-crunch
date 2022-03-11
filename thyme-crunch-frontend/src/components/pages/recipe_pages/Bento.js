@@ -1,6 +1,6 @@
 // import axios from "axios";
 import React from "react"
-import Navbar from "../../Navbar";
+import Navbar from "../../navbar/Navbar";
 import '../UtilPages/Profile/UserProfiles.css';
 import { BentoIng } from '../RecApiCalls/BentoApi';
 import { RecipeButton } from "../../buttons/RecipeButton";

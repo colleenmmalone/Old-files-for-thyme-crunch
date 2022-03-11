@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './SignUp.css';
 import '../../../../App.css';
-import FirstNavbar from '../../../FirstNavbar';
+import FirstNavbar from '../../../navbar/FirstNavbar';
 
 import axios from "axios";
 import { useNavigate} from 'react-router-dom';

@@ -1,4 +1,4 @@
-package com.p2.recApp.users;
+package com.thymecrunch.recApp.users;
 /*************************************Works Cited*********************************************
  * Title: "Java Tutorial - Complete User Login and Registration Backend + Email Verification"
  * Author: Nelson (amigoscode)

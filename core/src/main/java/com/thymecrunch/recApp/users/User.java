@@ -1,10 +1,9 @@
-package com.p2.recApp.users;
+package com.thymecrunch.recApp.users;
 
-import java.util.Collection;
-import java.util.Collections;
+// import java.util.Collections;
 import java.util.Objects;
 import java.util.Optional;
-import java.util.UUID;
+// import java.util.UUID;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,11 +21,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 //import org.springframework.security.core.authority.SimpleGrantedAuthority;
 //import org.springframework.security.core.userdetails.UserDetails;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+// import lombok.AllArgsConstructor;
+// import lombok.EqualsAndHashCode;
+// import lombok.Getter;
+// import lombok.NoArgsConstructor;
+// import lombok.Setter;
 import lombok.ToString;
 
 /*************************************Works Cited*********************************************

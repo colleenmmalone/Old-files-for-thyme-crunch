@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../../Navbar";
+import Navbar from "../../navbar/Navbar";
 import '../UtilPages/Profile/UserProfiles.css';
 import { HamburgerIng } from '../RecApiCalls/HamburgerApi';
 import { RecipeButton } from "../../buttons/RecipeButton";

@@ -1,23 +1,23 @@
-package com.p2.recApp.recipes;
+package com.thymecrunch.recApp.recipes;
 
 import java.util.List;
 import java.util.Optional;
 
-import javax.persistence.EntityManager;
+// import javax.persistence.EntityManager;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+// import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+// import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.p2.recApp.ingredients.IngredientService;
-import com.p2.recApp.recipes.Recipe;
-import com.p2.recApp.recipes.RecipeRepository;
+// import com.thymecrunch.recApp.ingredients.IngredientService;
+// import com.thymecrunch.recApp.recipes.Recipe;
+// import com.thymecrunch.recApp.recipes.RecipeRepository;
 
 @RestController
 @RequestMapping("/api/v1/recipes/users")
@@ -28,8 +28,8 @@ public class RecipeController {
 	@Autowired
 	private RecipeRepository recipeRepository;
 	@Autowired
-	private Recipe recipe;
-	private String recName;
+	// private Recipe recipe;
+	// private String recName;
 
 	//	@Autowired
 	//	public RecipeController(RecipeRepository recipeRepository, Recipe recipe, EntityManager manager) {

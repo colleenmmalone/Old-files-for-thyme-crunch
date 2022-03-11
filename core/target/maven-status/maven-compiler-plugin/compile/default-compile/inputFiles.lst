@@ -12,7 +12,6 @@ C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\cor
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\filters\package-info.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\bucket\BucketName.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\ingredients\IngredientService.java
-C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\shopinglist\ShopingListController.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\models\package-info.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\listeners\SimpleResourceListener.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\servlets\SimpleServlet.java
@@ -25,14 +24,15 @@ C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\cor
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\filestore\FileStore.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\springemailclient\EmailController.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\users\UserController.java
+C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\shoppinglist\ShoppingList.java
+C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\shoppinglist\ShoppingListController.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\schedulers\package-info.java
-C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\shopinglist\ShopingList.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\ingredients\IngredientInterface.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\models\HelloWorldModel.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\users\UserRole.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\listeners\package-info.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\users\UsersInterface.java
-C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\shopinglist\ShopingListRepository.java
+C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\shoppinglist\ShoppingListRepository.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\core\schedulers\SimpleScheduledTask.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\login\LoginPOJO.java
 C:\Users\ColleenMalone\Documents\brand-new-from-scratch\projects\thymecrunch\core\src\main\java\com\thymecrunch\recApp\login\Post.java

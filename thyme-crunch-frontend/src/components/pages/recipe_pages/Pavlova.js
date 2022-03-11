@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../../Navbar";
+import Navbar from "../../navbar/Navbar";
 import '../UtilPages/Profile/UserProfiles.css';
 import { PavlovaIng } from '../RecApiCalls/PavolvaApi';
 import { RecipeButton } from "../../buttons/RecipeButton";

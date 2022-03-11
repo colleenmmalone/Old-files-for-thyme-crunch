@@ -1,4 +1,4 @@
-import FirstNavbar from "../../../FirstNavbar"
+import FirstNavbar from "../../../navbar/FirstNavbar"
 import { UserProfiles } from "../Profile/UserProfiles";
 import '../Recipe/UserRecipes.css'
 import React from "react";

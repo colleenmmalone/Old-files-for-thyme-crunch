@@ -1,4 +1,4 @@
-package com.p2.recApp.springemailclient;
+package com.thymecrunch.recApp.springemailclient;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.p2.recApp.ingredients.Ingredient;
-import com.p2.recApp.ingredients.IngredientService;
+import com.thymecrunch.recApp.ingredients.Ingredient;
+import com.thymecrunch.recApp.ingredients.IngredientService;
 
 @RestController
 @CrossOrigin("*")

@@ -7,62 +7,62 @@
  *********************************************************************************/
 
 /* to do: need to make the cards mobile-responsive: flex column in mobile and flex row on desktop */
-.cards{
+.cards {
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   justify-content: center;
 }
- .submainAll{
+.submainAll {
   width: 560px;
   height: 400px;
   background-size: cover !important;
   background-position: center;
   position: relative;
- }
+}
 
- #bottom{
+#bottom {
   padding-left: 10px;
   padding-right: 13px;
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color:white;
+  background-color: white;
   color: rgb(247, 207, 207);
-  font-family: 'Moon Dance', cursive; 
+  font-family: "Moon Dance", cursive;
   font-size: 40px;
   border-radius: 0px 25px 0px 0px; /*this rounds the upper right corner*/
- }
+}
 
- .pdiv{
-   margin-top:10px ;
-   margin-bottom: 20px;
-   /* margin-left: 100px; */
+.pdiv {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* margin-left: 100px; */
 
-   background-color:transparent !important;
-
- }
-#h2p{
+  background-color: transparent !important;
+}
+#h2p {
   /* font-family: 'Moon Dance', cursive;  */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 25px;
-  color:rgb(253, 253, 253)
+  color: rgb(253, 253, 253);
   /* font-weight: 700; */
 }
 
-.bigDivAll{
+.bigDivAll {
   margin: 15px 90px !important;
   background-color: rgb(99, 95, 95);
   border: 5px solid rgb(99, 95, 95);
   border-radius: 30px;
-  overflow: hidden; /*this rounds the corners at the top */ 
+  overflow: hidden; /*this rounds the corners at the top */
   width: fit-content;
   /*float: left;*/
 }
 
-.hov:hover{
-  transition:0.6s ease-in-out;
+.hov:hover {
+  transition: 0.6s ease-in-out;
   transform: scale(1.2);
   /* z-index: 99; */
 }

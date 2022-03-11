@@ -1,4 +1,4 @@
-package com.p2.recApp.ingredients;
+package com.thymecrunch.recApp.ingredients;
 
 import java.util.List;
 import java.util.Optional;

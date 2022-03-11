@@ -1,4 +1,4 @@
-package com.p2.recApp.springemailclient;
+package com.thymecrunch.recApp.springemailclient;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

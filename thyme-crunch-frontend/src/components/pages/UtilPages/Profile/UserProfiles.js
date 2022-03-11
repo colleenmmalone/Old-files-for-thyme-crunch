@@ -33,7 +33,7 @@ export const UserProfiles = ()=> {
                <br/>
                <br/>
               
-               <h1>{user.firstname} {user.lastname}</h1>
+               <h1 id="upH1">{user.firstname} {user.lastname}</h1>
                <div id="userdiv">
                 <p>User ID: {user.userID}</p>
                 <p>Email: {user.email}</p>

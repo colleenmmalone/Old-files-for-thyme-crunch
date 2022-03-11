@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css';
 import '../../../../App.css';
-import FirstNavbar from '../../../FirstNavbar';
+import FirstNavbar from '../../../navbar/FirstNavbar';
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate} from 'react-router-dom';
