@@ -53,6 +53,7 @@ export function FirstNavbar() {
                     <i className={click ? "fas fa-times" : "fas fa-bars"}/>
                 </div>
                 <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
+                    <li className="nav-item">this needs to be deleted</li>
                     <li className='nav-item'>
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home
