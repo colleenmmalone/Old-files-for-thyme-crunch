@@ -1,11 +1,11 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
   }
   
   #body{
     font-family: "mumblers_demoregular";
-    /* background-color: orange; */
+    /* background-color: orange; 
     background-color: pink;
   }
   
@@ -88,4 +88,4 @@
   }
   #Shoping-button{
       margin-top:10% ;
-  }
+  } */

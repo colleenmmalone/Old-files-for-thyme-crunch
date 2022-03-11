@@ -6,11 +6,22 @@ video {
   z-index: -4;
 }
 
-#textOverlay {
-  position: absolute;
+.textOverlay {
+  position:absolute;
   z-index: 1;
-  color: #fff;
-  text-align: center;
+  left: 50%; 
+   color: #fff; 
+   text-align: center;
+   /* display: block; */
+}
+
+#textOverlay{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 1;
+  color:#fff;
+  /* display: block; */
 }
 
 .video-container {
@@ -68,7 +79,7 @@ video {
   }
 
   .btn-mobile {
-    display: block;
+    /* display: block; */
     text-decoration: none;
   }
 
